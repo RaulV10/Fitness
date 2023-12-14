@@ -55,4 +55,4 @@ The Fitness Planner Application is a web-based tool designed to help users creat
 
 ## Credits
 
-Lunchi AI App was created by [Raul Villarreal](https://www.linkedin.com/in/raulvillarreals/).
+Fitness Planner AI App was created by [Raul Villarreal](https://www.linkedin.com/in/raulvillarreals/).
