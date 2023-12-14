@@ -16,7 +16,7 @@ class OpenAIController extends Controller
 
         $prompt = 'Using the following json, create a week workout program tailored to my goals and preferences.' .
         $jsonData .
-        'The response must be in a valid JSON object as follow: {"weekWorkout":[{"day" : "", "workout" : [{"exerciseName" : "","desctipion" : "","sets" : "","reps" : "","rest" : ""}]}]}';
+        'The response must be in a valid JSON object as follow: {"weekWorkout":[{"day" : "", "workout" : [{"exerciseName" : "","description" : "","sets" : "","reps" : "","rest" : ""}]}]}';
 
         $result = OpenAI::chat()->create([
             'model' => 'gpt-3.5-turbo',
